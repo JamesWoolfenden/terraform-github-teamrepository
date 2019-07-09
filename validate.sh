@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-cd example/exampleA || return
+cd example/terraform-github-repository || return
 terraform init
 terraform validate
