@@ -1,31 +1,31 @@
 variable "name" {
-  type = "string"
+  type = string
 }
 
 variable "private" {
-  type = "string"
+  type = string
 }
 
 variable "description" {
-  type = "string"
+  type = string
 }
 
 variable "has_wiki" {
-  type = "string"
+  type = string
 }
 
 variable "has_downloads" {
-  type = "string"
+  type = string
 }
 
 variable "has_issues" {
-  type = "string"
+  type = string
 }
 
 variable "team_permission" {
-  type = "string"
+  type = string
 }
 
 variable "team_name" {
-  type = "string"
+  type = string
 }

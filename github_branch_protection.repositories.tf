@@ -1,5 +1,5 @@
 resource "github_branch_protection" "repository" {
-  repository     = "${github_repository.repository.name}"
+  repository     = github_repository.repository.name
   branch         = "master"
   enforce_admins = true
 
