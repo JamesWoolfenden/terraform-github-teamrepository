@@ -36,6 +36,7 @@ Here's how to get started...
 | private | - | string | - | yes |
 | team_name | - | string | - | yes |
 | team_permission | - | string | - | yes |
+| required_status_checks_context | - | list(string) | [] | no |
 
 ## References
 
