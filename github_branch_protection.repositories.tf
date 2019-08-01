@@ -5,6 +5,7 @@ resource "github_branch_protection" "repository" {
 
   required_status_checks {
     strict = true
+    contexts = var.required_status_checks_context
   }
 
   required_pull_request_reviews {

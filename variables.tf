@@ -29,3 +29,8 @@ variable "team_permission" {
 variable "team_name" {
   type="string"
 }
+
+variable "required_status_checks_context" {
+  type = list(string)
+  default = []
+}
