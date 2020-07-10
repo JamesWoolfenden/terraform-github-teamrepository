@@ -1,6 +1,11 @@
 [![Slalom][logo]](https://slalom.com)
 
-terraform-github-teamrepository [![Build Status](https://travis-ci.com/slalom-consulting-ltd/terraform-github-teamrepository.svg?branch=master)](https://travis-ci.com/slalom-consulting-ltd/terraform-github-teamrepository) [![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-teamrepository.svg)](https://github.com/slalom-consulting-ltd/terraform-github-teamrepository/releases/latest)
+terraform-github-teamrepository
+
+[![Build Status](https://github.com/slalom-consulting-ltd/terraform-github-teamrepository/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/slalom-consulting-ltd/terraform-github-teamrepository)
+[![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-teamrepository.svg)](https://github.com/slalom-consulting-ltd/terraform-github-teamrepository/releases/latest)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Make and populate Github repositories.
 
