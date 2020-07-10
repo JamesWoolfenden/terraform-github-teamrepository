@@ -5,3 +5,7 @@ variable team_permission {
 variable team_name {
   type = string
 }
+
+variable repository {
+  type = map
+}

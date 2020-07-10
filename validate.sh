@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-cd example/terraform-github-repository || return
+cd example/examplea || return
 rm .terraform -fr
 terraform init
 terraform validate
+make valid

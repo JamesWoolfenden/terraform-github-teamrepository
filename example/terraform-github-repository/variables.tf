@@ -7,5 +7,5 @@ variable team_name {
 }
 
 variable repository {
-
+   type=map
 }

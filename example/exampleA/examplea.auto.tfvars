@@ -1,9 +1,0 @@
-team_permission= "push"
-team_name      = "cds"
-repository={
-  "description"  = ""
-  "name"         = "examplea"
-  "private"      = false
-  "has_downloads"= true
-  "has_issues"   = true 
-  "has_wiki"     = true }
