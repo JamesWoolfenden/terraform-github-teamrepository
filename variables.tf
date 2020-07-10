@@ -1,31 +1,31 @@
 variable team_permission {
-  type=string
+  type = string
 }
 
 variable team_name {
-  type=string
+  type = string
 }
 
 variable required_status_checks_context {
-  type = list(string)
+  type    = list(string)
   default = []
 }
 
 variable protected_branch {
-  default="master"
+  default = "master"
 }
 
 variable repository {
-  type=map
+  type = map
 }
 
 variable enforce_admins {
-  default=true
+  default = true
 }
 
 variable required_pull_request_reviews {
-  default={
-    dismiss_stale_reviews = true
+  default = {
+    dismiss_stale_reviews           = true
     required_approving_review_count = 1
   }
 }
