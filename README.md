@@ -2,7 +2,7 @@
 
 terraform-github-teamrepository [![Build Status](https://travis-ci.com/slalom-consulting-ltd/terraform-github-teamrepository.svg?branch=master)](https://travis-ci.com/slalom-consulting-ltd/terraform-github-teamrepository) [![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-teamrepository.svg)](https://github.com/slalom-consulting-ltd/terraform-github-teamrepository/releases/latest)
 
-Make and populate github repositories.
+Make and populate Github repositories.
 
 ---
 
@@ -10,13 +10,19 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Introduction
 
-Some text here
+A basic module to create a github repo.
 
 ## Usage
 
-How to use the module:
+How to use the module, add module.github.tf to you code:
 
 ```terraform
+module github {
+  source          = "../../"
+  repository      = var.repository
+  team_permission = var.team_permission
+  team_name       = var.team_name
+}
 
 ```
 
@@ -37,7 +43,6 @@ Here's how to get started...
 | team_name | - | string | - | yes |
 | team_permission | - | string | - | yes |
 | required_status_checks_context | - | list(string) | [] | no |
-
 
 ## Help
 
