@@ -1,6 +1,6 @@
 team_permission = "push"
 team_name       = "cds"
-private         = true
+private         = false
 repository = {
   "description"   = ""
   "name"          = "examplea"

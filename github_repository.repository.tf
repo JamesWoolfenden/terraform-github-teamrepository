@@ -1,4 +1,4 @@
-resource "github_repository repository" {
+resource "github_repository" "repository" {
   description   = var.repository["description"]
   name          = var.repository["name"]
   private       = var.private

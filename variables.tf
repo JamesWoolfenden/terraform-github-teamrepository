@@ -32,5 +32,6 @@ variable required_pull_request_reviews {
 }
 
 variable "private" {
-  type = bool
+  type    = bool
+  default = true
 }
