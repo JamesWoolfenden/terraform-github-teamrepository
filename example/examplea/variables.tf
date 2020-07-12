@@ -9,3 +9,7 @@ variable team_name {
 variable repository {
   type = map
 }
+
+variable "private" {
+  type = bool
+}

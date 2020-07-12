@@ -20,6 +20,7 @@ variable repository {
 }
 
 variable enforce_admins {
+  type= bool
   default = true
 }
 
@@ -28,4 +29,8 @@ variable required_pull_request_reviews {
     dismiss_stale_reviews           = true
     required_approving_review_count = 1
   }
+}
+
+variable "private" {
+  type= bool
 }
