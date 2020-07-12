@@ -1,6 +1,6 @@
 [![Slalom][logo]](https://slalom.com)
 
-terraform-github-teamrepository
+# terraform-github-teamrepository
 
 [![Build Status](https://github.com/jameswoolfenden/terraform-github-teamrepository/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/jameswoolfenden/terraform-github-teamrepository)
 [![Latest Release](https://img.shields.io/github/release/jameswoolfenden/terraform-github-teamrepository.svg)](https://github.com/jameswoolfenden/terraform-github-teamrepository/releases/latest)
